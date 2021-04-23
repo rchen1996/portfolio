@@ -5,28 +5,23 @@ export default function Home(props) {
     <div>
       <section>
         <h1>
-          Hi, I am <strong>Rebecca Chen</strong>
+          Hi, I'm <strong>Rebecca Chen</strong>
         </h1>
         <p>Full-stack Developer</p>
       </section>
 
       <section>
         <h2>My Skills</h2>
-        <div>
-          <div>
-            <h3></h3>
-            <p></p>
-          </div>
-          <div>
-            <h3></h3>
-            <p></p>
-          </div>
-          <div>
-            <h3></h3>
-            <p></p>
-          </div>
-        </div>
-        <Link>Learn More</Link>
+        <div>{/* include skills/tech stack here */}</div>
+        <Link to='/about'>Learn More About Me</Link>
+      </section>
+
+      <section>
+        <h2>My Work</h2>
+      </section>
+
+      <section>
+        <h2>My Contact Information</h2>
       </section>
     </div>
   );
